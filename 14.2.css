@@ -27,7 +27,7 @@ header h1 {
     text-align: center;
 }
 header h3 {
-    margin: 0;
+    margin-bottom: 0;
     padding-bottom: 40px;
     text-align: center;
     font-weight: 100;
@@ -62,10 +62,61 @@ header nav ul li a {
   color: var(--dark);
 }
 
-main section article {
+
+
+main  div .sidebar {
+  position: sticky ;
+  top: 2rem; 
+  left: 10px;
+  height: max-content;
+  width: 130%;
+  margin-left: 1rem;
+  margin-right: 3rem;
+  padding: 5px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+main div .sidebar p{
+  text-align: left;
+  display: flex;
+  color: var(--light);
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: medium;
+  transition: color 0.3s ease;
+}
+main  div .sidebar ol a {
+  font-style: italic;
+  text-align: left;
+  display: flex;
+  color: var(--light);
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: medium;
+  transition: color 0.3s ease;
+
+}
+
+main  div .sidebar a:hover {
+  color: var(--dark);
+}
+
+
+main article {
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 30px;
+    margin-left: 7rem;
     padding: 20px;
     background-color: var(--light);
     border-radius: 8px;
@@ -89,4 +140,10 @@ footer p a{
 
 footer p a:hover {
   color: var(--dark);
+}
+
+main{
+  display: flex;
+  background-color: var(--light);
+  
 }

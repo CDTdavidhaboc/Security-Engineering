@@ -26,10 +26,32 @@
     </nav>
     </header>
 
+  
+<side>
+<article>
+      
+    </article>
+
+</side>
+
     <main>
-        <section>
+        <div>
+    <aside class="sidebar">
+        <p>Outlines</p>
+        <ol>
+            <a href="#forwan">14.2.1 Architectural design</a>
+            <a href="#fortu">14.2.2 Design Guidelines</a>
+            <a href="#fortri">14.2.3 Another Topic</a>
+        </ol>
+      </aside>
+
+        </div>
         
+
+        <section>
+            
             <article>
+                
                     <p>It is generally true that it is very difficult to add security to a system after it has been
                         implemented. Therefore, you need to take security issues into account during the
                         systems design process. In this section, I focus primarily on issues of system design,
@@ -89,8 +111,8 @@
                         require frequent checks. In a system for stock trading, however, interruptions of
                         operation for security checks would be completely unacceptable.</p>
             </article>
-            <article>
-                        <h1>14.2.1 Architectural design</h1>
+            <article id="forwan">
+                        <h1 >14.2.1 Architectural design</h1>
                         
             
                         <p>As I have discussed in Chapter 11, the choice of software architecture can have
@@ -183,9 +205,9 @@
                                     with the system client and agree on how these are to be resolved.</p>
             </article>
 
-            <article>
+            <article id="fortu">
 
-                <h1>14.2.2 Design Guidelines</h1>
+                <h1 >14.2.2 Design Guidelines</h1>
                         
             
                 <p>There are no hard and fast rules about how to achieve system security. Different
@@ -394,8 +416,8 @@
                                         <p><b>Figure 14.7</b> Software deloyment</p>
                         </article>
 
-                        <article>
-                            <h1>14.2.3 Design for deployment</h1>
+                        <article id="fortri">
+                            <h1 >14.2.3 Design for deployment</h1>
                         
 
                         <p>The deployment of a system involves configuring the software to operate in an operational environment, installing the system on the computers in that environment, and then
@@ -449,6 +471,9 @@
                             </ol>
                 </article>
         </section>
+
+
+
     </main>
         
     <footer>
