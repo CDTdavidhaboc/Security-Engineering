@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #0a660d;
+    --light: #EBEBE8;
+    --dark: #31352E;
+    --font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color:var(--primary-color);
+    color: var(--light);
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+}
+header .Author  {
+    margin-top: 0;
+    background-color: blue;
+    text-align:line;
+    font-size: 10px;
+    margin-bottom: 40px;
+}
+header h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    background-color: var(--dark);
+    padding: 10px;
+    text-align: center;
+}
