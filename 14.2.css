@@ -1,40 +1,92 @@
 :root {
-    --primary-color: #0a660d;
+    --primary-color: #0a6b0d;
     --light: #EBEBE8;
     --dark: #31352E;
+    --secondary-color: #208d24;
     --font-family: 'Poppins', sans-serif;
 }
 body {
     font-family: 'Poppins', sans-serif;
     margin: 20px;
     line-height: 1.6;
-    background-color:var(--primary-color);
+    background-color:var(--light);
     color: var(--light);
     margin-top: 0;
     margin: 0;
     padding: 0;
+    color: var(--dark);
 }
-
 header {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: rgb(255, 255, 255);
 }
-header .Author  {
-    margin-top: 0;
-    background-color: blue;
-    text-align:line;
-    font-size: 10px;
-    margin-bottom: 40px;
-}
+
 header h1 {
     margin: 0;
-    padding: 10px;
+    padding-top: 40px;
     text-align: center;
 }
-
-header nav {
-    display: flex;
-    background-color: var(--dark);
-    padding: 10px;
+header h3 {
+    margin: 0;
+    padding-bottom: 40px;
     text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+header nav ul {
+    
+  display: flex; 
+  justify-content: center; 
+  list-style: none;
+  padding: 10px;
+  margin:  10;
+  gap: 20px; 
+  background-color: var(--primary-color);
+}
+
+header nav ul li a {
+
+  text-decoration: none; 
+  color: var(--light); 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 2px;
+  transition: color 0.3s ease;
+
+}
+
+ header nav ul li a:hover {
+  color: var(--dark);
+}
+
+main section article {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: var(--light);
+    border-radius: 8px;
+    text-align: justify;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+background-color:var(--primary-color);
+  color: var(--light); 
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p a{
+  margin: 0;
+  font-size: 16px;
+  text-decoration: none;
+  color:var(--light);
+}
+
+footer p a:hover {
+  color: var(--dark);
 }
