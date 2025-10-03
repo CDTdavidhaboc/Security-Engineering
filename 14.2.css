@@ -15,7 +15,13 @@ body {
     margin: 0;
     padding: 0;
     color: var(--dark);
+    cursor: url('photo-20x20.png') 0 0, auto !important;
 }
+
+body a:hover {
+  cursor: url('photo-20x20.png') 0 0, auto !important;
+}
+
 header {
     background-color: var(--secondary-color);
     color: rgb(255, 255, 255);
@@ -93,6 +99,7 @@ main div .sidebar p{
   font-size: medium;
   transition: color 0.3s ease;
 }
+
 main  div .sidebar ol a {
   font-style: italic;
   text-align: left;
@@ -101,7 +108,8 @@ main  div .sidebar ol a {
   text-decoration: none;
   margin-top: 15px;
   margin-left: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
   font-weight: 500;
   font-size: medium;
   transition: color 0.3s ease;
