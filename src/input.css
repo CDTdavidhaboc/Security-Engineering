@@ -107,10 +107,10 @@ html{
 }
 
 #DAVID .articles {
-  @apply mt-2 p-3 bg-gray-200 leading-loose rounded-lg text-justify shadow-md text-sm mb-6 mr-2 ml-2 max-w-full
-    sm:text-base sm:mb-8 sm:p-4 sm:max-w-2xl
-    md:text-lg md:mb-10 md:p-6 md:max-w-5xl
-    lg:text-xl lg:mb-6 lg:p-8 lg:max-w-6xl
+  @apply mt-2 p-3 bg-gray-200 leading-loose rounded-lg text-justify shadow-md text-sm mb-2 mr-2 ml-2 max-w-full duration-150
+    sm:text-base sm:mb-4 sm:p-4 sm:max-w-2xl
+    md:text-lg md:mb-4 md:p-6 md:max-w-5xl
+    lg:text-xl lg:mb-4 lg:p-8 lg:max-w-6xl
     xl:text-xl xl:mb-4 xl:p-10 xl:max-w-7xl;
 }
 
